@@ -44,7 +44,9 @@ html{
 
 }
 
-
+.carousel-item img{
+  height: 600px;
+}
 
 .navContainer{
     background-image: url(../img/intro-bg.jpg) ;
@@ -106,6 +108,8 @@ html{
 }
 #about-us .about-img img{
     width: 70%;
+    margin-right: 112px;
+
 }
 
 #about-us .about-img::before {
@@ -135,8 +139,14 @@ html{
     color: #413e66;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+    text-align: right;
+    margin:50px  100px;
+    
 }
-
+#about-us .about-content p{
+  text-align: justify;
+  margin-right: 100px;
+}
 #about-us .about-content h3 {
     color: #696592;
     font-weight: 400;
@@ -165,6 +175,11 @@ html{
 transition: .5s ease-in;
 margin-bottom: 30px;
 
+}
+
+.services-item img{
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .services-item i{
