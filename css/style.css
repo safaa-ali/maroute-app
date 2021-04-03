@@ -1217,7 +1217,7 @@ height: 500px;
 }
 .overlay-gallary{
 position: absolute;
-background-color: #333;
+background-color: rgb(51, 51, 51,.3);
 opacity: 0;
 transition: .5s ease-in-out;
 left:0;
@@ -1227,7 +1227,7 @@ height: 97%;
 }
 
 .gallary-item:hover .overlay-gallary{
-opacity: .5;
+opacity: 1;
 }
 .container-fluid#gallary{
   padding-right: 0px;
@@ -1247,4 +1247,12 @@ opacity: .5;
 iframe{
   width: 100%;
   height: 500px;
+}
+.gallary-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+color:#fff;
+text-align: right;
 }
